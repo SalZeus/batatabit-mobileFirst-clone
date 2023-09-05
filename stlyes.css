@@ -111,7 +111,7 @@ main{
     max-width: 90rem;
     margin: 0 auto;
 }
-.main-exchange-container .background-img{
+.main-exchange-container .backgroundImg{
     width: 20rem;
     height: 20rem;
     margin: 0 auto;
@@ -134,4 +134,34 @@ main{
     font-weight: 500;
     line-height: 1.6rem;
     color: #757575;
+}
+.main-currency-table{
+    width: 70%;
+    min-width: 23.5rem;
+    max-width: 50rem;
+    height: 360px;
+    margin: 0 auto;
+    font-family: "Inter", sans-serif;
+}
+.main-currency-table .currency-table--title{
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 2.3rem;
+    color: var(--bitcoin-orange);
+}
+.currency-table--container{
+    width: 90%;
+    min-width: 23rem;
+    max-width: 30rem;
+    height: 25rem;
+    margin: 0 auto;
+}
+.currency-table--container table{
+    width: 100%;
+    height: 100%;
+}
+.currency-table--container td{
+    width: 50%;
+    
 }
