@@ -26,6 +26,7 @@
 html{
     font-size: 62.5%;
     font-family: "DM Sans", sans-serif;
+    scroll-behavior: smooth;
 }
 
 header{
@@ -209,7 +210,7 @@ main{
     font-size: 1.2rem;
     font-weight: 300;
     line-height: 1.5rem;
-    color: var(--warm-black);
+    color: var(--black);
     padding: 0.7rem;
 }
 .main-currency-table .table-comision{
@@ -224,4 +225,247 @@ main{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+}
+.main-product-detail{
+    position: relative;
+    width: 100%;
+    min-width: 32rem;
+    height: auto;
+    padding: 2rem 1rem;
+    background-color: var(--black);  
+}
+.product-detail--batata-logo{
+    position: absolute;
+    width: 4rem;
+    height: 2.5rem;
+    top: -1rem;
+    left: calc(50% - 2rem);
+    background-image: url(./assets/icons/batata.svg);
+    background-repeat: no-repeat;
+}
+.product-detail--title{
+    width: 90%;
+    min-width: 28.8rem;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 5rem;
+    text-align: center;
+}
+.product-detail--title h2{
+    margin-bottom: 2rem;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--just-white);
+}
+.product-detail--title p{
+    margin-bottom: 2rem;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: #808080;
+}
+.product-detail--card{
+    width: 90%;
+    min-width: 28.8rem;
+    max-width: 40rem;
+    min-height: 15rem;
+    margin: 1.5rem auto;
+    padding: 1.5rem;
+    background-color: var(--warm-black);
+    border-radius: 0.5rem;
+    box-shadow: 0 0.4rem 0.8rem rgba(0,0,0, 0.16);
+}
+.product-detail--card .clock{
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    margin-bottom: 1rem;
+    background-image: url(./assets/icons/clock.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.product-detail--card .eye{
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    margin-bottom: 1rem;
+    background-image: url(./assets/icons/eye.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.product-detail--card .dollar{
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    margin-bottom: 1rem;
+    background-image: url(./assets/icons/dollar-sign.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.product-detail--card .checkmark{
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    margin-bottom: 1rem;
+    background-image: url(./assets/icons/check-circle.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.product--card-title{
+    margin-bottom: 1.5rem;
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 1.8rem;
+    color: var(--just-white);
+}
+.product--card-body{
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: #808080;
+}
+.bitcoin-img-container{
+    width: 100%;
+    min-width: 32rem;
+    height: 50vh;
+    background-image: url("./assets/img/bitcoinbaby2x.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;  
+    text-align: center  
+}
+.bitcoin-img-container h2{
+    padding-top: 6rem;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--just-white);
+}
+.main-plans-container {
+    width: 100%;
+    min-width: 32rem;
+    padding-bottom: 7rem;
+    text-align: center;
+}
+.plans--title{
+    width: 90%;
+    min-width: 28.8rem;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 5rem;
+    text-align: center;
+}
+.plans--title h2{
+    width: 70%;
+    padding-top: 5rem;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: black;
+    margin: 0 auto;
+}
+.plans--title p{
+    width: 70%;
+    padding-top: 3rem;
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: #757575;
+    margin: 0 auto;
+}
+.plans-container--card {
+    position: relative;
+    width: 70%;
+    min-width: 23rem;
+    max-width: 30rem;
+    height: 25rem;
+    margin: 5rem auto 0;
+    padding: 0 1.5rem;
+    background-color: var(--just-white);
+    border-radius: 1.5rem;
+    box-shadow: 0 0.4rem 0.8rem rgba(89, 73, 30, 0.16);
+}
+.plans-container--card .recommended{
+    position: absolute;
+    width: 12rem;
+    height: 3.1rem;
+    left: calc(50% - 6rem);
+    top: -15px;
+    background-color: var(--bitcoin-orange);
+    border-radius: 0.8rem;
+    color: var(--just-white);
+    padding: 6px;
+}
+.plan-card--title{
+    padding-top: 3rem;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: var(--black);
+}
+.plan-info-container .plan-card--price{
+    padding: 0.5rem 0;
+    font-size: 5.3rem;
+    font-weight: bold;
+    line-height: 6.3rem;
+    color: var(--black);
+}
+
+.plan-info-container .plan-card--price span{
+    font-size: 1.2rem;
+    font-weight: 300;
+    vertical-align: 2.5rem;
+}
+.plan-info-container .plan-card--savings{
+    font-size: 1.2rem;
+    color: #757575;
+}
+.plan-card--ca{
+    width: 15rem;
+    height: 4.8rem;
+    margin-top: 2rem;
+    background-color: #faf8f7;
+    border-radius: 0.8rem;
+    border: var(--bitcoin-orange) 0.3rem solid;
+    font-size: 1.4rem;
+    font-weight: bold;
+    line-height: 1.8rem;
+    color: var(--black);
+    font-family: "DM Sans", sans-serif;
+}
+.plan-card--ca span{
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    background-image: url(./assets/icons/orange-right-arrow.svg);
+    vertical-align: text-bottom;
+}
+
+.plans-container--card .lifetime{
+    background-color: #757575;
+    font-weight: bold;
+}
+.plans-container--slider .lifetime-background{
+    background-color: var(--black);
+    color: var(--just-white);
+}
+.plans-container--slider .lifetime-info-container{
+    color: white;
+}
+.lifetime-info-container h3{
+    color: white;
+}
+.lifetime-info-container span{
+    color: var(--bitcoin-orange);
+}
+.lifetime-info-container .lifetime-price{
+    color: var(--bitcoin-orange);
+    -webkit-text-stroke: var(--just-white);
+}
+.plans-container--card .monthly{
+    background-color: var(--secondary-blue);
 }
