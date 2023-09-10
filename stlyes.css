@@ -225,3 +225,20 @@ main{
     background-position: center;
     background-size: cover;
 }
+
+.main-product-detail{
+    position: relative;
+    width: 100%;
+    min-width: 32rem;
+    height: auto;
+    padding: 2rem 1rem;
+    background-color: var(--warm-black);
+
+}
+
+.product-detail--batata-logo{
+    position: absolute;
+    width: 4rem;
+    height: 2.5rem;
+    background-image: url(./assets/icons/batata.svg);
+}
